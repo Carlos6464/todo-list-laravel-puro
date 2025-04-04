@@ -1,4 +1,4 @@
-# 📝 ToDo List - Laravel - Purp
+# 📝 ToDo List - Laravel - Puro
 
 Este é um projeto simples de **lista de tarefas** (_ToDo List_) desenvolvido com **Laravel puro**, sem o uso de frameworks JS externos. Ele permite organizar tarefas de forma prática e funcional, incluindo as operações essenciais de CRUD.
 
