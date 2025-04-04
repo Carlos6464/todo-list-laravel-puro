@@ -1,3 +1,38 @@
+# 📝 ToDo List - Laravel - Purp
+
+Este é um projeto simples de **lista de tarefas** (_ToDo List_) desenvolvido com **Laravel puro**, sem o uso de frameworks JS externos. Ele permite organizar tarefas de forma prática e funcional, incluindo as operações essenciais de CRUD.
+
+## ✨ Funcionalidades
+
+- ✅ **Adicionar tarefa**: Crie novas tarefas com título, descrição e data.
+- ✏️ **Editar tarefa**: Altere os dados de uma tarefa existente.
+- ❌ **Excluir tarefa**: Remova tarefas que não são mais necessárias, com confirmação de exclusão.
+- ✔️ **Concluir tarefa**: Marque tarefas como finalizadas.
+- 🔍 **Buscar tarefas**: Use o campo de busca para encontrar tarefas pelo título.
+- 📄 **Paginação**: A listagem de tarefas é paginada para melhor navegação.
+
+## 📂 Estrutura
+
+- `routes/web.php`: Define as rotas principais (index, store, edit, update, destroy, concluir).
+- `app/Http/Controllers/TarefaController.php`: Controlador principal que gerencia as ações.
+- `resources/views/tarefas/`: Contém as views `index.blade.php` e `create.blade.php`.
+
+## 💡 Tecnologias
+
+- Laravel (Blade, Eloquent, Controller, Routing)
+- HTML/CSS
+- SweetAlert2 (para confirmação de exclusão)
+
+## 🚀 Como usar
+
+1. Clone o repositório
+2. Rode `composer install`
+3. Configure o `.env` e crie o banco de dados
+4. Rode as migrations com `php artisan migrate`
+5. Inicie o servidor com `php artisan serve`
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
